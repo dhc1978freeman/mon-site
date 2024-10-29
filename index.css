@@ -1,3 +1,14 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  min-height: 100vh;
+  width: 100%; 
+}
+
 .accueil-photos {
     background-color: white;
     padding: 80px;
@@ -89,6 +100,7 @@
       align-items: center;
       justify-content: center;
     }
+  }
 
   @media screen and (max-width: 996px) {
       .header {
@@ -120,5 +132,56 @@
       gap: 0;
     }
   }
+
+
+ .fav {
+  padding: 15px 30px;
+  font-size: 16px;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.fav:hover {
+  transform: scale(1.1);
+  background-color: #0056b3;
+}
+
+.fai {
+  padding: 15px 30px;
+  font-size: 16px;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.fai:hover {
+  transform: scale(1.1);
+  background-color: #0056b3;
+}
+
+.fan {
+  padding: 15px 30px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  background-color: #e5ff00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 75px;
+  transition: margin-left 2s;
   
-  
+}
+
+.fan:hover {
+  background-color: #0056b3;
+  margin-left: 50px;
+}
+
+
